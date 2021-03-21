@@ -7,6 +7,14 @@
 html {
      // 10 / 16 = .625 * 100
     font-size: 62.5%;
+     
+     @include response(md) {
+          fontsi: 56.25%;
+     }
+     @include response(sm) {
+          fontsi: 50%;
+     }
+
 }
 
 .container{
